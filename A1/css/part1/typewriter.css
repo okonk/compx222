@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'TT2020BaseRegular';
+    src: url('../../font/part1/TT2020Base-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    color: black;
+}
+
+body, h1, h2, h3, h4, h5, h6, table, th {
+   font-family: 'TT2020BaseRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+#details img {
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+#details span {
+    display: block;
+}
+
+/* #details::after {
+    content: "";
+     clear: both;
+     display: block;
+} */
+
+a {
+     text-decoration: none;
+    color: black;
+}

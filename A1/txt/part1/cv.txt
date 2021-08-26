@@ -1,0 +1,74 @@
+Hayden Curran
+18 Courtney Ave, Dinsdale, Hamilton
+021 366-2432
+haydenz@gmail.com
+
+
+PERSONAL STATEMENT
+
+A highly motivated software developer with over ten years professional experience. Keen eye for detail. Preference toward simple maintainable code, security and a good user experience. Easy going, work well in a team. Strong problem solver and fast learner.
+
+
+SUMMARY OF SKILLS
+
+Languages:      C#, Python, Java
+Platforms:      Windows, Linux
+Source Control: Mercurial, Git
+Databases:      PostgreSQL, SQLite, MSSQL, MySQL
+Web:            HTML, CSS, JavaScript, TypeScript, IIS, Apache
+Other:          Jenkins, JIRA, PowerShell, SharePoint, Scrum/Agile
+
+
+WORK EXPERIENCE
+
+Senior Software Developer, Pingar, November 2013 - Present, Auckland
+
+Pingar went through an extensive restructuring to focus development efforts on it's DiscoveryOne product. I was selected to continue in my previous role as Software Developer before being promoted to Senior Software Developer in March 2016.
+
+* Involved in full product pipeline from requirements to development, user experience and customer support
+* Lead development of various components in micro-services architecture
+* Lead an effort to refactor code leading to a 80-99% improvement in execution speed across multiple customer-facing interfaces
+* Placed in charge of security, responsibilities included:
+** Regular auditing of existing code
+** Training of team-members
+** Keeping up with security news and best practices
+** Improving processes to keep infrastructure secure
+* Went above and beyond solving customer support issues
+* Created build script in Jenkins for automated builds, testing and deployment
+* Created modular installer framework with GUI and command line modes
+* Advised partners on best technical solutions
+* Developed multi-threaded applications for processing large amounts of data
+
+
+Software Developer, Pingar, April 2011 - November 2013, Auckland
+
+Hired after internship, working on Pingar API doing natural language processing.
+
+* Lead development of Pingar API while the boss was away
+* Implemented named entity recognition using machine learning (Conditional Random Fields)
+* Inherited code and improved it to be production ready
+* Profiled hot spots and optimised code resulting in up to 86% improvement in execution speed across various areas
+* Implemented SharePoint addon for extracting metadata from documents
+* Re-architected Pingar API based on new requirements
+* Extended Pingar API to process data in other languages
+* Implemented various features such as acronym detection, term relatedness
+
+
+Intern Developer, Pingar, December 2010 - March 2011, Auckland
+
+Was hired as a research intern, working on natural language processing.
+
+* Created and consumed web services
+* Designed, implemented and released Pingar API
+* Implemented autocomplete webservice for English and Chinese
+* Created demo web-application for visualising keywords usage
+
+
+EDUCATION
+
+BSc in Computer Science at The University of Waikato, Hamilton, New Zealand. 2008-2010
+
+
+REFERENCES
+
+Available upon request

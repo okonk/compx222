@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'EncodeSansRegular';
+    src: url('../../font/part1/EncodeSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+   font-family: 'EncodeSansRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: medium;
+   margin: auto;
+   width: 1000px;
+   background-color: #f8f9fa;
+   color: #212934;
+}
+
+#details img {
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+#details span {
+    display: block;
+}
+
+#details::after {
+     content: "";
+     clear: both;
+     display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1a4971;
+}
+
+a {
+    color: #1a4971;
+}

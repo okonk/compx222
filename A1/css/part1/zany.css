@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'BloggerSans';
+    src: url('../../font/part1/BloggerSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes spin { 100% { transform: rotate(360deg); } }
+
+body {
+   font-family: 'BloggerSans';
+   font-weight: normal;
+   font-style: normal;
+   font-size: medium;
+   padding: 0;
+   margin: 0;
+}
+
+#details img {
+    float: left;
+    margin: 0px 10px 10px 10px;
+    animation: spin 4s linear infinite;
+}
+
+#details span {
+    display: block;
+}
+
+#details::after {
+    content: "";
+     clear: both;
+    display: block;
+}
+
+#details {
+    background-color: #aad4f5;
+    margin: 0;
+    padding: 10px;
+    animation: spin 4s linear 10s infinite reverse;
+}
+
+#personal-statement {
+    background-color: #cfd6de;
+    margin: 0;
+    padding: 10px;
+    animation: spin 6s linear 12s infinite;
+}
+
+#skills-summary {
+    background-color: #6ed7d3;
+    margin: 0;
+    padding: 10px;
+    animation: spin 2s linear 13s infinite reverse;
+}
+
+#work-experience {
+    background-color: #74d99f;
+    margin: 0;
+    padding: 10px;
+    animation: spin 10s linear 9s infinite;
+}
+
+#education {
+    background-color: #fae29f;
+    margin: 0;
+    padding: 10px;
+    animation: spin 7s linear 14s infinite;
+}
+
+#references {
+    background-color: #e46464;
+    margin: 0;
+    padding: 10px;
+    animation: spin 3s linear 13s infinite;
+}
