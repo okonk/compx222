@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Road Code Quiz</title>
+
+        <link rel="stylesheet" type="text/css" href="../css/quiz.css">
+        <script type="text/javascript" src="../js/quiz.js"></script>
+    </head>
+    <body>
+        <h1>Road Code Quiz</h1>
+
+        <div id="quiz">
+            <img id="image" class="quizimage" alt="Quiz image" src="" />
+            <h2 id="question"></h2>
+
+            <form id="quizform" name="quiz" onsubmit="return checkAnswer(event)">
+                <div id="answersform">
+                    <ul>
+                        <li>
+                            <input id="a1" name="answer" type="radio" value="a1" />
+                            <label id="a1label" for="a1"></label>
+                        </li>
+                        <li>
+                            <input id="a2" name="answer" type="radio" value="a2" />
+                            <label id="a2label" for="a2"></label>
+                        </li>
+                        <li>
+                            <input id="a3" name="answer" type="radio" value="a3" />
+                            <label id="a3label" for="a3"></label>
+                        </li>
+                        <li>
+                            <input id="a4" name="answer" type="radio" value="a4" />
+                            <label id="a4label" for="a4"></label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="answerssummary">
+                    <ul>
+                        <li id="a1summary"></li>
+                        <li id="a2summary"></li>
+                        <li id="a3summary"></li>
+                        <li id="a4summary"></li>
+                    </ul>
+                </div>
+
+                <input id="submitbutton" type="submit" name="submit" value="Submit answer" />
+            </form>
+        </div>
+
+        <div id="instructions">
+            <p>You will be asked 10 questions about the NZ Road Code. See how many you get correct.</p>
+
+            <button onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <div id="endsummary"></div>
+    </body>
+</html>

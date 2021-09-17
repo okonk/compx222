@@ -1,0 +1,77 @@
+body {
+    background-color: #E0E6F4;
+    color: #0C1B3F;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+input[type=number] {
+    background-color: #ECEEF2;
+    color: #0C1B3F;
+    border: 1px solid #0C1B3F;
+    border-radius: 10px;
+}
+
+button, input[type=button], input[type=submit], input[type=reset] {
+    background-color: #ECEEF2;
+    color: #0C1B3F;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #0C1B3F;
+}
+
+button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+    background-color: #43547F;
+}
+
+#squares {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+
+.square {
+    display: inline-block;
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    padding: 0;
+    margin: 0;
+
+    box-shadow:
+        1px 0 0 0 #333,
+        0 1px 0 0 #333,
+        1px 1px 0 0 #333,
+        1px 0 0 0 #333 inset,
+        0 1px 0 0 #333 inset;
+}
+
+.square.p1 {
+    background-color: blue;
+}
+
+.square.p2 {
+    background-color: red;
+}
+
+.p1 {
+    color: blue;
+}
+
+.p2 {
+    color: red;
+}
+
+#messages {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+#errorMessage {
+    color: red;
+    font-size: larger;
+}

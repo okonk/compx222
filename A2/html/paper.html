@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Paper Strip Game</title>
+
+        <link rel="stylesheet" type="text/css" href="../css/paper.css">
+        <script type="text/javascript" src="../js/paper.js"></script>
+    </head>
+    <body>
+        <h1>Paper Strip Game</h1>
+
+        <div id="game"></div>
+        <div id="gamesize">
+            <p>How many squares do you want?</p>
+            <form name="gamesize" onsubmit="return startGame(event)">
+                <input name="n" type="number" min="1" value="10" /><br />
+
+                <input type="submit" name="start" value="Start Game" />
+            </form>
+        </div>
+    </body>
+</html>
